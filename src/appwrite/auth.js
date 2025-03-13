@@ -1,5 +1,6 @@
 import conf from "../conf/conf";
 import { Client, Account, ID } from "appwrite"
+import { Client } from 'appwrite';
 
 export class AuthService {
     client= new Client()
