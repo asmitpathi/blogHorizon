@@ -1,0 +1,13 @@
+appwrite: backend service(login authentication, store blogs, etc)
+tinyMCE for rich text editor
+html-react-parser library for displaying properly
+react hook form
+react Router
+
+environment variables(keep in the project root(src in this case))
+the process of extracting/using the env variables is different in different apps. For e.g. in react, they can be extracted by process.env.REACT_APP_APPWRITE_URL
+but in VITE, they can be extracted by import.meta.env.VITE_APPWRITE_URL
+
+Setup the appwite(database, collections, attributes, index, etc)
+
+forwardref react hook is used
