@@ -68,20 +68,13 @@ export class Service{
 
     //file upload service
     async uploadFile(file){
-    try {
-        return await this.bucket.createFile(
-            conf.appwriteBucketId,
-            ID.unique(),
-            file,
-            [
-                Permission.read(Role.any())  // 👈 allows public read access
-            ]
-        );
-    } catch (error) {
-        console.log("Appwrite service :: uploadFile :: error", error);
-        return false;
+        try {
+            return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file);
+        } catch (error) {
+            console.log("Appwrite service :: uploadFile :: error", error);
+            return false;
+        }
     }
-}
 
     async deleteFile(fileId){
         try {
@@ -95,9 +88,8 @@ export class Service{
 
     //no async because the response is very fast
     getFilePreview(fileId){
-    return this.bucket.getFilePreview(conf.appwriteBucketId, fileId).href;
-}
-
+        return this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
+    }
 }
 
 const service= new Service();
