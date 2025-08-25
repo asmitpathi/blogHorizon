@@ -20,11 +20,11 @@ function Home() {
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
-                        <Link to='/login'>
+                        
                             <h1 className="text-2xl font-bold hover:underline cursor-pointer">
                                 Log in now and start reading!
                             </h1>
-                        </Link>
+                        
                         </div>
                     </div>
                 </Container>
