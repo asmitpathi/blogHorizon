@@ -88,7 +88,7 @@ export class Service{
 
     //no async because the response is very fast
     getFilePreview(fileId){
-        return this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
+        return this.bucket.getFileView(conf.appwriteBucketId, fileId);
     }
 }
 
