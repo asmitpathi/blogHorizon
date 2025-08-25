@@ -104,7 +104,7 @@ export default function PostForm({ post }) {
                     accept="image/png, image/jpg, image/jpeg, image/gif"
                     {...register("image", { required: !post })}
                 />
-                {post?.featuredImage (
+                {post && (
                     <div className="w-full mb-4">
                         {console.log("Image URL:", appwriteService.getFilePreview(post.featuredImage))}
                         <img
