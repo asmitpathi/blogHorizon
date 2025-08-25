@@ -69,7 +69,7 @@ export class Service{
     //file upload service
     async uploadFile(file){
         try {
-            return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file);
+            return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file, [Permission.read(Role.any())]);
         } catch (error) {
             console.log("Appwrite service :: uploadFile :: error", error);
             return false;
@@ -87,10 +87,9 @@ export class Service{
     }
 
     //no async because the response is very fast
-    getFilePreview(fileId) {
-    return String(this.bucket.getFilePreview(conf.appwriteBucketId, fileId));
-}
-
+    getFilePreview(fileId){
+        return this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
+    }
 }
 
 const service= new Service();

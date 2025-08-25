@@ -22,7 +22,7 @@ function Home() {
                         <div className="p-2 w-full">
                         
                             <h1 className="text-2xl font-bold hover:underline cursor-pointer">
-                                Log in now and start reading!
+                                Your Blog Journey begins here!
                             </h1>
                         
                         </div>
