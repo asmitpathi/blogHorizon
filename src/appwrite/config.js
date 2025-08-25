@@ -1,5 +1,5 @@
 import conf from "../conf/conf";
-import { Client, ID, Databases, Storage, Query, Permission, Role } from "appwrite"
+import { Client, ID, Databases, Storage, Query } from "appwrite"
 
 export class Service{
     client= new Client();
@@ -69,7 +69,7 @@ export class Service{
     //file upload service
     async uploadFile(file){
         try {
-            return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file, [Permission.read(Role.any())]);
+            return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file);
         } catch (error) {
             console.log("Appwrite service :: uploadFile :: error", error);
             return false;
