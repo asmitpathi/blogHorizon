@@ -31,6 +31,7 @@ root/
 
 ## 🚀 Features
 
+```
 ✅ User authentication with Appwrite
 ✅ Rich text editing via TinyMCE
 ✅ Post creation, editing, and deletion
@@ -38,6 +39,7 @@ root/
 ✅ Responsive design using TailwindCSS
 ✅ Client-side routing with React Router
 ✅ Form validation using React Hook Form
+```
 
 ---
 
