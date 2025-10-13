@@ -31,7 +31,7 @@ root/
 
 ## 🚀 Features
 
-- ✅ User authentication with Appwrite
+* ✅ User authentication with Appwrite
 - ✅ Rich text editing via TinyMCE
 - ✅ Post creation, editing, and deletion
 - ✅ Seamless HTML content rendering with HTML React Parser
