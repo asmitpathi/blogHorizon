@@ -31,7 +31,6 @@ root/
 
 ## 🚀 Features
 
-```
 ✅ User authentication with Appwrite
 ✅ Rich text editing via TinyMCE
 ✅ Post creation, editing, and deletion
@@ -39,66 +38,54 @@ root/
 ✅ Responsive design using TailwindCSS
 ✅ Client-side routing with React Router
 ✅ Form validation using React Hook Form
-```
 
 ---
 
 ## 🧰 Tech Stack
 
-```
 Frontend: ReactJS, Vite
 Styling: TailwindCSS
 Editor: TinyMCE
 Authentication: Appwrite
 Form Handling: React Hook Form
 Content Parsing: HTML React Parser
-```
 
 ---
 
 ## 🔐 Environment Variables
 
-```
 Create a .env file in the root folder and add the following:  
 
 VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
 VITE_APPWRITE_PROJECT=your_project_id
 VITE_APPWRITE_API_KEY=your_api_key
 VITE_TINYMCE_API_KEY=your_tinymce_api_key
-```
 
 ---
 
 ## 🛠️ Installation & Run
 
-```
 git clone https://github.com/asmitpathi/blogHorizon.git
 cd blogHorizon
 npm install
 npm run dev 
-```
 
 ---
 
 ## 📮 API Testing
 
-```
 All interactions (creating, editing, deleting posts) have been tested using the Appwrite SDK.
 All forms include validation, and responses return clear success or error messages.
-```
 
 ---
 
 ## 📌 Author
 
-```
 Asmit  
 GitHub: https://github.com/asmitpathi  
-```
+
 ---
 
 ## 🙏 Acknowledgment
 
-```
 Thanks to Hitesh Choudhary sir for his incredible Chai aur React series, which served as the foundation for this project.  
-```
