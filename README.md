@@ -32,57 +32,57 @@ root/
 ## 🚀 Features
 
 ✅ User authentication with Appwrite <br/>
-✅ Rich text editing via TinyMCE
-- ✅ Post creation, editing, and deletion
-- ✅ Seamless HTML content rendering with HTML React Parser
-- ✅ Responsive design using TailwindCSS
-- ✅ Client-side routing with React Router
-- ✅ Form validation using React Hook Form
+✅ Rich text editing via TinyMCE <br/>
+✅ Post creation, editing, and deletion <br/>
+✅ Seamless HTML content rendering with HTML React Parser <br/>
+✅ Responsive design using TailwindCSS <br/>
+✅ Client-side routing with React Router <br/>
+✅ Form validation using React Hook Form <br/>
 
 ---
 
 ## 🧰 Tech Stack
 
-Frontend: ReactJS, Vite
-Styling: TailwindCSS
-Editor: TinyMCE
-Authentication: Appwrite
-Form Handling: React Hook Form
-Content Parsing: HTML React Parser
+Frontend: ReactJS, Vite <br/>
+Styling: TailwindCSS <br/>
+Editor: TinyMCE <br/>
+Authentication: Appwrite <br/>
+Form Handling: React Hook Form <br/>
+Content Parsing: HTML React Parser <br/>
 
 ---
 
 ## 🔐 Environment Variables
 
-Create a .env file in the root folder and add the following:  
-
-VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
-VITE_APPWRITE_PROJECT=your_project_id
-VITE_APPWRITE_API_KEY=your_api_key
-VITE_TINYMCE_API_KEY=your_tinymce_api_key
+Create a .env file in the root folder and add the following:  <br/>
+<br/>
+VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint <br/>
+VITE_APPWRITE_PROJECT=your_project_id <br/>
+VITE_APPWRITE_API_KEY=your_api_key <br/>
+VITE_TINYMCE_API_KEY=your_tinymce_api_key <br/>
 
 ---
 
 ## 🛠️ Installation & Run
 
-git clone https://github.com/asmitpathi/blogHorizon.git
-cd blogHorizon
-npm install
-npm run dev 
+git clone https://github.com/asmitpathi/blogHorizon.git  <br/>
+cd blogHorizon <br/>
+npm install <br/>
+npm run dev <br/>
 
 ---
 
 ## 📮 API Testing
 
-All interactions (creating, editing, deleting posts) have been tested using the Appwrite SDK.
-All forms include validation, and responses return clear success or error messages.
+All interactions (creating, editing, deleting posts) have been tested using the Appwrite SDK. <br/>
+All forms include validation, and responses return clear success or error messages. <br/>
 
 ---
 
 ## 📌 Author
 
-Asmit  
-GitHub: https://github.com/asmitpathi  
+Asmit <br/>
+GitHub: https://github.com/asmitpathi <br/>
 
 ---
 
