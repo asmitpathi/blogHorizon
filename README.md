@@ -1,4 +1,4 @@
-# 📦 TwiTube
+# 📦 blogHorizon
 
 blogHorizon is amodern blogging platform inspired by the **Chai aur React** series by *Hitesh Choudhary*.  
 It allows users to **create, edit, and view posts** with a rich text editor, user authentication, and seamless content rendering.
